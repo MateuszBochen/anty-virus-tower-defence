@@ -33091,7 +33091,7 @@
 /* 4 */
 /***/ function(module, exports) {
 
-	module.exports = "<div class=\"app\">\n    <div >\n        <h5 class=\"center-align\">Anty-Virus Tower defence</h5>\n    </div>\n\n\n    <canvas id=\"game\" width=\"640\" height=\"480\" ng-show=\"$ctr.isLoaded\" ></canvas>\n\n    <div class=\"loader\">\n        <img src=\"assets/Virus-PNG-Picture-loader.png\" />\n    </div>\n\n</div>"
+	module.exports = "<div class=\"app\">\n    <div >\n        <h5 class=\"center-align\">Anty-Virus Tower defence</h5>\n    </div>\n\n\n    <canvas id=\"game\" width=\"640\" height=\"480\" ng-show=\"$ctr.isLoaded\" ></canvas>\n\n    <div class=\"loader\">\n        <div class=\"imageSlider\">\n            <img src=\"assets/Virus-PNG-Picture-loader.png\" />\n        </div>\n    </div>\n\n</div>"
 
 /***/ },
 /* 5 */
@@ -33163,7 +33163,7 @@
 	exports.i(__webpack_require__(9), "");
 	
 	// module
-	exports.push([module.id, "@keyframes example {\n  0% {\n    margin-top: 0px; }\n  50% {\n    margin-top: 317px; }\n  51% {\n    height: 100px;\n    width: 163px; }\n  60% {\n    height: 163px;\n    width: 163px; }\n  100% {\n    margin-top: 0px; } }\n\n.loader {\n  height: 480px; }\n\n.loader img {\n  animation-name: example;\n  animation-duration: 1s;\n  animation-iteration-count: infinite; }\n", ""]);
+	exports.push([module.id, "@keyframes example {\n  0%, 100% {\n    bottom: 377px; }\n  40% {\n    width: 163px;\n    height: 163px; }\n  40% {\n    width: 163px;\n    height: 103px; }\n  50% {\n    bottom: 50px; }\n  70% {\n    width: 163px;\n    height: 163px; } }\n\n.loader {\n  height: 480px; }\n\n.loader .imageSlider {\n  margin: 0px auto;\n  positnion: relative;\n  height: 480px;\n  width: 163px; }\n\n.loader img {\n  position: absolute;\n  animation-name: example;\n  animation-duration: 1s;\n  animation-iteration-count: infinite; }\n", ""]);
 	
 	// exports
 

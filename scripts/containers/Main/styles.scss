@@ -2,19 +2,27 @@
 
 
 @keyframes example {
-    0%  {margin-top: 0px}
-    50%  {margin-top: 317px}
-    51%  {height: 100px; width: 163px;}
-    60%  {height: 163px; width: 163px;}
-
-    100%  {margin-top: 0px}    
+    0%, 100% {bottom: 377px;}
+    40% {width: 163px; height: 163px;}
+    40% {width: 163px; height: 103px;}
+    50% {bottom: 50px;}
+    70% {width: 163px; height: 163px;}
 }
 
 
 .loader {
     height: 480px;
 
+
+    .imageSlider {
+        margin: 0px auto;
+        positnion: relative;
+        height: 480px;        
+        width: 163px;
+    }
+
     img {
+        position: absolute;
         animation-name: example;
         animation-duration: 1s;
         animation-iteration-count: infinite;

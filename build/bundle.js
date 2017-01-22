@@ -33163,7 +33163,7 @@
 	exports.i(__webpack_require__(9), "");
 	
 	// module
-	exports.push([module.id, "@keyframes example {\n  0%, 100% {\n    bottom: 377px; }\n  40% {\n    width: 163px;\n    height: 163px; }\n  40% {\n    width: 163px;\n    height: 103px; }\n  50% {\n    bottom: 50px; }\n  70% {\n    width: 163px;\n    height: 163px; } }\n\n.loader {\n  height: 480px; }\n\n.loader .imageSlider {\n  margin: 0px auto;\n  positnion: relative;\n  height: 480px;\n  width: 163px; }\n\n.loader img {\n  position: absolute;\n  animation-name: example;\n  animation-duration: 1s;\n  animation-iteration-count: infinite; }\n", ""]);
+	exports.push([module.id, "@keyframes example {\n  0%, 100% {\n    bottom: 377px; }\n  40% {\n    width: 163px;\n    height: 163px; }\n  45% {\n    width: 163px;\n    height: 143px; }\n  50% {\n    bottom: 50px;\n    width: 163px;\n    height: 103px; }\n  70% {\n    width: 163px;\n    height: 163px; } }\n\n.loader {\n  height: 480px; }\n\n.loader .imageSlider {\n  margin: 0px auto;\n  positnion: relative;\n  height: 480px;\n  width: 163px; }\n\n.loader img {\n  position: absolute;\n  animation-name: example;\n  animation-duration: 1s;\n  animation-iteration-count: infinite; }\n", ""]);
 	
 	// exports
 

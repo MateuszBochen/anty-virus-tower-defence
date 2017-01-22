@@ -1,0 +1,31 @@
+{
+  "name": "tower_defence",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-env": "^1.1.8",
+    "css-loader": "^0.26.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.9.0",
+    "ng-annotate": "^1.2.1",
+    "node-sass": "^4.3.0",
+    "raw-loader": "^0.5.1",
+    "resolve-url": "^0.2.1",
+    "resolve-url-loader": "^1.6.1",
+    "sass-loader": "^4.1.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.14.0"
+  },
+  "dependencies": {
+    "angular": "^1.6.1",
+    "materialize-css": "^0.97.8"
+  }
+}

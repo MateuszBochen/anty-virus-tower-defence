@@ -1,0 +1,22 @@
+@import './../../../node_modules/materialize-css/bin/materialize.css';
+
+
+@keyframes example {
+    0%  {margin-top: 0px}
+    50%  {margin-top: 317px}
+    51%  {height: 100px; width: 163px;}
+    60%  {height: 163px; width: 163px;}
+
+    100%  {margin-top: 0px}    
+}
+
+
+.loader {
+    height: 480px;
+
+    img {
+        animation-name: example;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+    }
+}
